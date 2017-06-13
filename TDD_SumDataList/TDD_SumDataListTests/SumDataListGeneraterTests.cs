@@ -11,10 +11,20 @@ namespace TDD_SumDataList.Tests
 	[TestClass()]
 	public class SumDataListGeneraterTests
 	{
+		[ExpectedException(typeof(ArgumentException))]
 		[TestMethod()]
-		public void GetSumDataListTest()
+		public void Test_GroupCountIsSmallThenZero_Should_Get_ArgumentException()
 		{
-			Assert.Fail();
+			//arrange
+			var target = new SumDataListGenerater();
+			int gruopCount = -1;
+			
+			var act = target.GetSumDataList<object>(null,null, gruopCount);
 		}
+
+
+		
 	}
+
+
 }
