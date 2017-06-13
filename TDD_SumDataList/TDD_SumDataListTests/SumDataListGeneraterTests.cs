@@ -67,7 +67,22 @@ namespace TDD_SumDataList.Tests
 
 
 
+		[TestMethod()]
+		public void Test_GroupCount_is_4_ItemName_is_Revenue_Should_Get_50_66_60()
+		{
+			//arrange
+			var target = new SumDataListGenerater();
+			int groupCount = 4;
+			ICollection<object> source = new List<object>();
+			string itemName = "Revenue";
+			ICollection expected = new List<int>() {50,66,60};
 
+			//act
+			ICollection act = target.GetSumDataList(source, itemName, groupCount);
+
+			//assert
+			CollectionAssert.AreEqual(expected, act);
+		}
 
 
 
