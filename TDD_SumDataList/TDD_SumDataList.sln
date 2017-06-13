@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_SumDataList", "TDD_SumDataList\TDD_SumDataList.csproj", "{8163A509-C0CC-483A-9330-C6F1387D2D28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_SumDataListTests", "TDD_SumDataListTests\TDD_SumDataListTests.csproj", "{5044333B-EEC1-433E-BE7A-706B58EB2BA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8163A509-C0CC-483A-9330-C6F1387D2D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8163A509-C0CC-483A-9330-C6F1387D2D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8163A509-C0CC-483A-9330-C6F1387D2D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5044333B-EEC1-433E-BE7A-706B58EB2BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5044333B-EEC1-433E-BE7A-706B58EB2BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5044333B-EEC1-433E-BE7A-706B58EB2BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5044333B-EEC1-433E-BE7A-706B58EB2BA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
