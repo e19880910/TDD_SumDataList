@@ -34,9 +34,19 @@ namespace TDD_SumDataList.Tests
 			var act = target.GetSumDataList<object>(null, null, gruopCount);
 		}
 
+		[ExpectedException(typeof(ArgumentException))]
+		[TestMethod()]
+		public void Test_ItemName_Is_not_exist_Should_Get_ArgumentException()
+		{
+			//arrang
+			var target = new SumDataListGenerater();
+			int gruopCount = 1;
+
+			//act
+			var act = target.GetSumDataList<object>(null, null, gruopCount);
+		}
 
 
-		
 	}
 
 
